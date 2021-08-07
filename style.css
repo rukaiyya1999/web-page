@@ -65,7 +65,7 @@
 }
 
 .background{
-    background: rgb(0, 0, 0, 0.7) url('../img/hotel.jpg');
+    background: rgb(0, 0, 0, 0.7) url('hotel.jpg');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -210,19 +210,5 @@
     
     display: flex;
     justify-content: center;
-}
-
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
-.line{
-   width: 27px;
-   background-color: aliceblue;
-   height: 4px;
-   margin: 3px; 
 }
 
