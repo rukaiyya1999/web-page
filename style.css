@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 50%;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.nav-list li a{
+    color: seashell;
+    text-decoration: none;
+
+} 
+
+.nav-list li a:hover{
+    color: chocolate;
+}
+
+.rightnav{
+
+    width: 30%;
+    text-align: right;
+}
+
+#search{
+    width: 50%;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+.background{
+    background: rgb(0, 0, 0, 0.7) url('../img/hotel.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection{
+    margin-bottom: 40px;
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    font-family: sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+}
+
+.fhalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sechalf{
+    width: 30%;
+    height: 57%;
+    margin: auto;
+}
+
+
+.sechalf img{
+    height:58%;
+    width: 70%;
+    padding: 1px;
+    border: 3px solid rebeccapurple;
+    border-radius: 150px;
+}
+
+.text-big{
+    font-size: 40px;
+}
+
+.text-small{
+    font-size: 17px;
+}
+
+.btn{
+   padding: 10px;
+   margin: 7px 3px;
+   border: 2px solid rebeccapurple;
+   border-radius: 10px; 
+   background: none;
+   color: white;
+   cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: center;
+}
+
+.btn-dark{
+    margin: 20px;
+    text-align:center;
+    border: 2px solid blue;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.section{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+ .paras{
+   width: 300%;
+    padding: 0 50px;
+}
+
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.thumb{
+    width: 130%;
+    height: 55%;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.thumb img{
+    width: 70%;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contact{
+    background-color: rgb(233, 220, 245);
+    height: 110vh;
+    padding: 20px;
+}
+
+.textcen{
+    text-align: center;
+    color: blue;
+    padding: 10px;
+}
+
+.form{
+    max-width: 500px;
+    margin: auto;
+}
+.form-input{
+    padding: 5px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.form :hover{
+    color: rgb(108, 28, 182);
+}
+
+.text-footer{
+    text-align: center;
+    color: blanchedalmond;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+   width: 27px;
+   background-color: aliceblue;
+   height: 4px;
+   margin: 3px; 
+}
+
